@@ -278,8 +278,8 @@ p{
   overflow-x: auto;
   justify-content: center;
   position: absolute;
-  /*bottom: 30px;*/
-  top: 30px;
+  bottom: 30px;
+  /*top: 30px; ar촬영시*/
 }
 .slide{
   flex-shrink: 0;
@@ -407,12 +407,13 @@ p{
 .modeling .content{
   background-image: url("../img/service/modeling.jpg");
 }
-.modeling .content .phone_row{ /*오른쪽에 폰 배치*/
-  left: 130px;
-}
 /*service arrange*/
 .arrange .content{
-  background-image: url("../img/service/arrange.png");
+  background-image: url("../img/service/arrange.jpeg");
+  background-position: 50% 70%;
+}
+.arrange .content .phone_row{ /*왼쪽에 폰 배치*/
+  right: 130px;
 }
 /*service manage*/
 .manage .content{
@@ -712,8 +713,8 @@ footer img{
   .visual .content .phone_row{ 
     right: 112px;
   }
-  .modeling .content .phone_row{
-    left: 112px;
+  .visual .content .phone_row{ 
+    right: 112px;
   }
 }
 @media screen and (max-width: 960px) {
@@ -820,8 +821,8 @@ footer img{
     padding: 10px 15px;
   }
   #viewer .slides{
-    /*bottom: 0px;*/
-    top: 0px;
+    bottom: 0px;
+    /*top: 0px; ar촬영시*/ 
   }
   /*contact(제목의 크기 조절)*/
   #contact h2{
@@ -861,8 +862,8 @@ footer img{
   .visual .content .phone_row{ 
     right: 95px;
   }
-  .modeling .content .phone_row{
-    left: 95px;
+  .arrange .content .phone_row{ 
+    right: 95px;
   }
 }
 @media screen and (max-width: 460px) {
@@ -894,8 +895,8 @@ footer img{
     .visual .content .phone_row{ 
       right: 97px;
     }
-    .modeling .content .phone_row{
-      left: 97px;
+    .arrange .content .phone_row{ 
+      right: 97px;
     }
     .phone_col video{
       height: 97%;
