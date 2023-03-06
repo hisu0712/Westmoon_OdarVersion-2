@@ -392,7 +392,7 @@ p{
 
 /*service fillter*/
 .fillter .content{
-  background-image: url("../img/service/fillter__.jpg");
+  background-image: url("../img/service/fillter_.png");
   background-position: 50% 90%;
 } 
 /*service visual*/
@@ -404,7 +404,7 @@ p{
 }
 /*service modeling*/
 .modeling .content{
-  background-image: url("../img/service/modeling.png");
+  background-image: url("../img/service/modeling.jpg");
 }
 .modeling .content .phone_row{ /*오른쪽에 폰 배치*/
   left: 130px;
