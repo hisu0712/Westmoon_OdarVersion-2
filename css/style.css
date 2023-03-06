@@ -820,7 +820,8 @@ footer img{
     padding: 10px 15px;
   }
   #viewer .slides{
-    bottom: 0px;
+    /*bottom: 0px;*/
+    top: 0px;
   }
   /*contact(제목의 크기 조절)*/
   #contact h2{
