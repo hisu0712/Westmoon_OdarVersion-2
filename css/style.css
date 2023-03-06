@@ -278,7 +278,8 @@ p{
   overflow-x: auto;
   justify-content: center;
   position: absolute;
-  bottom: 30px;
+  /*bottom: 30px;*/
+  top: 30px;
 }
 .slide{
   flex-shrink: 0;
