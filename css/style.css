@@ -393,16 +393,19 @@ p{
 
 /*service fillter*/
 .fillter .content{
-  background-image: url("../img/service/fillter_.png");
-  background-position: 50% 90%;
+  background-image: url("../img/service/fillter2.jpeg");
+  background-position: 80% 40%;
 } 
 /*service visual*/
 .visual .content{
-  background-image: url("../img/service/visualization_.png");
+  background-image: url("../img/service/visualization.jpg");
+  background-position: 50% 90%;
 }
-.visual .content .phone_row{ /*왼쪽에 폰 배치*/
+/*
+.visual .content .phone_row{ /*왼쪽에 폰 배치
   right: 130px;
 }
+*/
 /*service modeling*/
 .modeling .content{
   background-image: url("../img/service/modeling.jpg");
@@ -710,12 +713,11 @@ footer img{
     height: 180px;
     width: 351px;
   }
+  /*
   .visual .content .phone_row{ 
     right: 112px;
   }
-  .visual .content .phone_row{ 
-    right: 112px;
-  }
+  */
 }
 @media screen and (max-width: 960px) {
   /*home(요소배치 바뀜)*/
@@ -859,9 +861,11 @@ footer img{
     height: 150px;
     width: 292.5px;
   }
+  /*
   .visual .content .phone_row{ 
     right: 95px;
   }
+  */
   .arrange .content .phone_row{ 
     right: 95px;
   }
@@ -892,9 +896,11 @@ footer img{
       height: 135px;
       width: 263.25px;
     }
+    /*
     .visual .content .phone_row{ 
       right: 97px;
     }
+    */
     .arrange .content .phone_row{ 
       right: 97px;
     }
