@@ -869,6 +869,9 @@ footer img{
   .arrange .content .phone_row{ 
     right: 95px;
   }
+  .slides{
+    justify-content: unset; /*앞 glb가 짤리는 오류 해결*/
+  }
 }
 @media screen and (max-width: 460px) {
   /*about(pc화면 크기 조절)*/
