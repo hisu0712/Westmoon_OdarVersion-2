@@ -27,7 +27,7 @@
 }
 body{
   margin: 0;
-  padding: 0;
+  padding: 0; 
   width: 100%;
   height: 100%;
   font-family: 'Noto Sans KR', arial;
@@ -427,14 +427,14 @@ p{
 /*canvas*/
 #test{
   z-index: -10;
-  padding: 0 7.5%;
-  width: 100%;
   top: 5800px; /*위치 조절 다른 방식 필요*/
   position: absolute;
+  display: none;
 }
 @media screen and (max-width: 1440px) {
   #test{
     padding: 0;
+    display: block;
   }
 }
 @media screen and (max-width: 1050px) {

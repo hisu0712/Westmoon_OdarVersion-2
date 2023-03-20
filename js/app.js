@@ -15,9 +15,10 @@ class App{
 
     requestAnimationFrame(this.animate.bind(this));
   }
-
+  
   resize(){
-    this.stageWidth = document.body.clientWidth;
+    let MainWidth = document.getElementById('jsWidth')
+    this.stageWidth = MainWidth.offsetWidth;
     this.stageHeight = document.body.clientHeight/11.3;
 
     this.canvas.width = this.stageWidth;
