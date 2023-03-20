@@ -429,13 +429,8 @@ p{
   z-index: -10;
   top: 5800px; /*위치 조절 다른 방식 필요*/
   position: absolute;
-  display: none;
-}
-@media screen and (max-width: 1440px) {
-  #test{
-    padding: 0;
-    display: block;
-  }
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 @media screen and (max-width: 1050px) {
   #test{
