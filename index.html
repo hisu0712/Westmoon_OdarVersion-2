@@ -92,12 +92,18 @@
         <h3>3D/AR 뷰어</h3>
         <p>볼륨매트릭으로 만든 오다의 3D 모델을 체험해보세요.</p> <!--p 통합했으니 나중에 나눌것-->
         <div class="view">
-          <model-viewer class="product" src="glb/pilates.glb" poster="glb/pilates.png" shadow-intensity="1" ar camera-controls touch-action="pan-y" alt="A 3D model carousel"><!--poster가 로딩되기 전에 사진-->
+          <model-viewer class="product" src="glb/backpack.glb" shadow-intensity="1" ar camera-controls touch-action="pan-y" alt="A 3D model carousel"><!--poster가 로딩되기 전에 사진-->
             <div class="slides">
-              <button class="slide  selected" onclick="switchSrc(this, 'pilates')" style="background-image: url('glb/pilates.png');">
+              <button class="slide selected" onclick="switchSrc(this, 'backpack')" style="background-image: url('glb/backpack.png');">
               </button>
-              <button class="slide" onclick="switchSrc(this, 'cloth')" style="background-image: url('glb/cloth.png');">
-              </button>   
+              <button class="slide" onclick="switchSrc(this, 'ballet')" style="background-image: url('glb/ballet.png');">
+              </button>
+              <button class="slide" onclick="switchSrc(this, 'hood')" style="background-image: url('glb/hood.png');">
+              </button> 
+              <button class="slide" onclick="switchSrc(this, 'neck')" style="background-image: url('glb/neck.png');">
+              </button> 
+              <button class="slide" onclick="switchSrc(this, 'bikini')" style="background-image: url('glb/bikini.png');">
+              </button>  
               <button class="slide" onclick="switchSrc(this, 'golf')" style="background-image: url('glb/golf.png');">
               </button>
               <button class="slide" onclick="switchSrc(this, 'nike')" style="background-image: url('glb/nike.png');">

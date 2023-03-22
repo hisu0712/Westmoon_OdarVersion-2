@@ -398,8 +398,8 @@ p{
 } 
 /*service visual*/
 .visual .content{
-  background-image: url("../img/service/visualization.jpg");
-  background-position: 50% 90%;
+  background-image: url("../img/service/visual1.jpg");
+  background-position: 50% 38%;
 }
 /*
 .visual .content .phone_row{ /*왼쪽에 폰 배치
@@ -408,12 +408,13 @@ p{
 */
 /*service modeling*/
 .modeling .content{
-  background-image: url("../img/service/modeling.jpg");
+  background-image: url("../img/service/modeling.jpeg");
+  background-position: 30% 50%;
 }
 /*service arrange*/
 .arrange .content{
   background-image: url("../img/service/arrange.jpeg");
-  background-position: 50% 70%;
+  background-position: 50% 20%;
 }
 .arrange .content .phone_row{ /*왼쪽에 폰 배치*/
   right: 130px;
@@ -714,6 +715,11 @@ footer img{
   }
   */
 }
+@media screen and (max-width: 980px) {
+  .slides{
+    justify-content: unset; /*앞 glb가 짤리는 오류 해결*/
+  }
+}
 @media screen and (max-width: 960px) {
   /*home(요소배치 바뀜)*/
   #home{
@@ -863,9 +869,6 @@ footer img{
   */
   .arrange .content .phone_row{ 
     right: 95px;
-  }
-  .slides{
-    justify-content: unset; /*앞 glb가 짤리는 오류 해결*/
   }
 }
 @media screen and (max-width: 460px) {
