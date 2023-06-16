@@ -1,15 +1,8 @@
 @charset "utf-8"; /*스타일 시트의 문서 인코딩 방식 utf-8*/
 :root{
   --blue: #f8f987;
+  --blueAA: #fcfadd94;
   --blueAAA: #fcfadd50;
-  --blueAsssAA: #f7f987c7;
-  /*
-  --blue: #234eeb;
-  --blueA: #234eebaf;
-  --blueAA: #234eeb1b;
-  --blueAAA: #234eeb0f;
-  --skyblue: #bfbfbfa4;
-  */
   --black:#000;
   --grey:#232323;
   --lightgrey:#313131;
@@ -85,7 +78,8 @@ header .menu{
 .menu .contact:hover{
   color: red;
 }
-/*header 메뉴바*/
+
+/*HEADER 메뉴바*/
 header .bar{
   display: none;
   text-align: center;
@@ -100,7 +94,7 @@ header .bar{
 .bar .sub-menu { 
   display: none; 
   position: absolute;
-  top: 69px; /*높이에서 border 제외*/
+  top: 84px; /*높이에서 border(6) 제외*/
   left: 0;
   background-color: var(--white);
   border-bottom: var(--outline);
@@ -108,7 +102,7 @@ header .bar{
 }
 .bar img{
   width: 80px;
-  height: 65px;
+  height: 74px;
   padding: 8px 16px 5px;
 }
 .bar img:hover{
@@ -117,7 +111,7 @@ header .bar{
   -webkit-tap-highlight-color:transparent;
 }
 .sub-menu li:hover{
-  background-color: var(--blue);
+  background-color: var(--blueAA);
   transition-duration: 0.5s;
   -webkit-tap-highlight-color:transparent;
 }
@@ -723,6 +717,13 @@ footer button{
   }
   header .bar{
     display: flex;
+  }
+  /*로고 크기 및 위치 조정*/
+  header .logo{
+    margin-left: 15px;
+  }
+  .logo img{
+    height: 65px;
   }
 }
 @media screen and (max-width: 900px) {
