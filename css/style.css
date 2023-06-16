@@ -41,7 +41,7 @@ header{
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  height: 75px;
+  height: 90px;
   border: var(--outline);
   display: flex;
   align-items: center;
@@ -52,15 +52,12 @@ header .logo{
   margin-left: 80px;
   display: flex;
   align-items: center;
-}
-.logo a{ /*로고 글자 조정*/
-  font-weight: bold;
-  font-size: 35px;
-  letter-spacing: 5px;
+  justify-self: center;
 }
 .logo img{
-  width: 55px;
-  padding-right: 10px;
+  width: auto;
+  height: 70px;
+  margin-top: 4px;
 }
 header .menu{
   display: flex;
@@ -803,7 +800,7 @@ footer button{
   }
   /*header(로고 왼쪽 여백 줄어듬)*/
   header .logo{
-    margin-left: 30px;
+    margin-left: 20px;
   }
   /*viewer(radius, 패딩 조절)*/
   #viewer .view{
